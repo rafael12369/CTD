@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa1 {
+    height: 150px;
+    width: 200px;
+    background-color: rgb(228, 42, 42);
+    position: flex;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.caixa2 {
+    height: 150px;
+    width: 200px;
+    background-color: rgb(71, 203, 255);
+    position: flex;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.caixa3 {
+    height: 150px;
+    width: 200px;
+    background-color: rgb(71, 255, 111);
+    position: flex;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.caixa4 {
+    height: 150px;
+    width: 200px;
+    background-color: rgb(240, 71, 255);
+    position: flex;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.caixa5 {
+    height: 150px;
+    width: 200px;
+    background-color: rgb(243, 255, 71);
+    position: flex;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.caixa6 {
+    height: 150px;
+    width: 200px;
+    background-color: rgb(89, 71, 255);
+    position: flex;
+    margin: 5px;
+    border-radius: 20px;
+}

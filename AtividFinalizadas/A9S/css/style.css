@@ -1,0 +1,211 @@
+
+
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+            body {
+
+                background-color: #181818;
+                font-family: 'Roboto', sans-serif;
+                margin: 72px 0;
+
+            }
+
+            .page-title {
+
+                color: rgb(236, 54, 78);
+                padding-left: 64px;
+                margin-bottom: 6px;
+
+            }
+
+            .page-description {
+
+                padding-left: 64px;
+                color: rgba(255, 255, 255, 0.6);
+
+            }
+
+            .videos {
+
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 0 auto;
+                gap: 12px;
+                transition: 5s ease-in-out;
+
+            }
+
+            .video1 {
+                background-image: url('https://picsum.photos/800/500?random=1');
+                width: 30%;
+                height: 40%;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                padding: 60px 12px;
+                transition: 5s ease-in-out;
+                cursor: pointer;
+            }
+
+            .video2 {
+
+                background-image: url('https://picsum.photos/800/500?random=2');
+                width: 30%;
+                height: 40%;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                padding: 60px 12px;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+
+            }
+
+            .video3 {
+
+                background-image: url('https://picsum.photos/800/500?random=3');
+                width: 30%;
+                height: 40%;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                padding: 60px 12px;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+            }
+
+            .video4 {
+
+                background-image: url('https://picsum.photos/800/500?random=4');
+                width: 30%;
+                height: 40%;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                padding: 60px 12px;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+
+            }
+
+            .video5 {
+
+                background-image: url('https://picsum.photos/800/500?random=5');
+                width: 30%;
+                height: 40%;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                padding: 60px 12px;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+            }
+
+            .video6 {
+
+                background-image: url('https://picsum.photos/800/500?random=6');
+                width: 30%;
+                height: 40%;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                padding: 60px 12px;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+
+            }
+
+            .video7 {
+
+                background-image: url('https://picsum.photos/800/500?random=7');
+                width: 30%;
+                height: 40%;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                padding: 60px 12px;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+
+            }
+
+            .video8 {
+
+                background-image: url('https://picsum.photos/800/500?random=8');
+                width: 30%;
+                height: 40%;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                padding: 60px 12px;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+            }
+
+            .video9 {
+
+                background-image: url('https://picsum.photos/800/500?random=9');
+                width: 30%;
+                height: 40%;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                padding: 60px 12px;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+
+            }
+
+            .video:hover {
+
+                transform: scale(1.02);
+                filter: brightness(120%);
+
+            }
+
+            .thumbnail {
+
+                width: 100%;
+            }
+
+            .video-time {
+
+                color: white;
+                background-color: rgba(0, 0, 0, 0.5);
+                width: fit-content;
+                float: right;
+                padding: 8px 12px;
+                display: block;
+                transform: translateY(150px);
+
+            }
+
+            .video-title {
+
+                margin: 8px 0 12px;
+                color: white;
+                transform: translateY(190px);
+
+            }
+
+            .video-description {
+
+                color: rgba(255, 255, 255, 0.6);
+                margin: 0;
+                transform: translateY(190px);
+
+            }
+
+            .video-views {
+
+                color: rgba(255, 255, 255, 0.6);
+                margin-top: 12px;
+                display: block;
+                transform: translateY(190px);
+
+            }
+
+            .video-date {
+
+                text-align: right;
+                display: block;
+                color: rgba(255, 255, 255, 0.4); 
+                font-size: 12px;
+                transform: translateY(175px);
+
+            }
+
+

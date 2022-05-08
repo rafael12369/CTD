@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    box-shadow: 0px 2px 15px black;
+}
+.cabecalho p {
+    background-color: #1CD1B0;
+    height: 20px;
+    padding: 10px 10px;
+}
+
+.cabecalho h1 {
+    background-color:#00669F;
+    height: 65px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: fixed relative;
+    font-weight: lighter;
+}
+
+main {
+    display: block;
+}
+.card1 {
+ 
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 350px;
+    display: block;
+    position: absolute;
+    border-radius: 3%;
+    box-shadow: 0px 2px 15px black;
+    
+    
+}
+
+.card1 .imagem {
+
+    background-image: url(/A10/img/batman.jpg);
+    background-size: cover;
+    background-position: top;
+    filter: blur(0.5px);
+    width: 100%;
+    height: 250px;
+    border-radius: 3%;
+}
+
+.card2 .imagem {
+    
+    background-image: url(/A10/img/arlequina.webp);
+    background-position: top;
+    background-size: cover;
+    filter: blur(0.5px);
+    width: 100%;
+    height: 250px;
+    border-radius: 3%;
+}
+.card2 {
+    background-color: blueviolet;
+    width: 400px;
+    height: 600px;
+    display: block;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 800px;
+    border-radius: 3%;
+    box-shadow: 0px 2px 15px black;
+
+}
+
+.imagem2 {
+
+    background-image: url(/A10/img/coracao.png);
+    position: relative;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-top: -60px;
+    margin-left: 10px;
+    
+
+}
+
+.card1 .imagemCirc {
+
+    background-image: url(/A10/img/batman2.jpg);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 150px;
+    margin-top: -60px;
+    position: relative;
+
+}
+
+.card2 .imagemCirc {
+
+    background-image: url(/A10/img/arlequina2.jpg);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 150px;
+    margin-top: -60px;
+    position: relative;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.texto {
+    color: white;
+    margin: 10px;
+    text-align: center;
+} 
+
+.mais {
+    color: white;
+    text-align: center;
+    background-color: #00669F;
+    margin-left: 150px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+footer {
+    
+	bottom: 0;
+    margin-top: 800px;
+    background-color: #00669F;
+    padding: 10px
+    
+}
+
+.rodape {
+    color: white;
+}

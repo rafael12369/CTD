@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background-color: #1c1f28;
+}
+
+header {
+    background: rgba( 0, 0, 0, 0.15 );
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    backdrop-filter: blur(13px);
+    background: rgba( 0, 0, 0, 0.45 );
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 50px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 0;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+/* .nav-item a:hover {
+    color: white;
+/* } */ Vamos trocar por uma animação de expandir */
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 400;
+    
+}
+.branc_bt_nav {
+    color: #bbbbbb;
+}
+
+
+
+.mobile-menu-icon {
+    display: none; 
+    margin-top: 10px;
+} 
+
+.mobile-menu {
+    display: none; 
+}
+
+/* Quando a tela estiver no tamanho de 755px ou maior, o botão não aparecerá. Neste caso, também já está compatível com a resolução 425px requisitada para esta atividade. */
+@media screen and (max-width: 980px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );
+        background: rgba( 0, 0, 0, 0.45 );
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    /* Classe open com o display block, ou seja, quando essa classe for adicionada ao nosso menu, ele aparecerá  */
+    .open {
+        display: block;
+    }
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.img_home {
+  background-image: url('/img/GG_apex_legends.jpg');
+  background-attachment: fixed;
+  max-width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 600px) {
+    .img_home {
+        background-image: url('/img/j1_apex_legends.jpg');
+        background-size: cover;
+    }
+ }
+.bg-escuro {
+    background-color: #1c1f28;
+}
+
+.h1_home {
+  color: white;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 40px; line-height: 1.6em;
+}
+
+.bt_jogar {
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background: rgba(80, 0, 255, 0.8);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  margin-top: 3%;
+  transition-property: padding, text;
+  transition-duration: 0.25s;
+  transition-delay: 100ms;
+}
+
+.bt_jogar:hover
+{
+ padding-left: 65px;   
+ padding-right: 65px;
+ color: white;
+ background: rgba(80, 0, 255, 1);
+}
+
+.glassf {
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.glass_cx_home {
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+    background: rgba( 0, 0, 0, 0.45 );
+}
+
+.branc_bt_nav {
+    color: #bbbbbb!important;
+}
+
+iframe {
+    width: 400px;
+    border-radius: 20px;
+}
+.link-name
+              {
+                text-decoration: none;
+                color: white;
+              }
+    
+              #backgound-footer
+              {
+                background: rgb(47, 38, 45);
+                background: linear-gradient(115deg, rgba(97,21,78,1) 0%, rgba(44,55,109,1) 61%);
+              }
+
+.img_rodape {
+    background-image: url(/img/1169862.jpg);
+    background-attachment: fixed;
+    max-width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+/* vini----------------------------------- */
+
+
+
+/* rafa ------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
