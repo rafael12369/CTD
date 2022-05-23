@@ -4,5 +4,6 @@ Draw.io:
 Word:
 	https://docs.google.com/document/d/1_ZTeeYKAoJasrZqx6m4Eu10X-Iaesu3LVoKGhX7gTVk/edit
 
-GitHub:
+GitHub: 
+	https://github.com/rafael12369/CTD/tree/main/POO/Checkpoint%20Java
 	
