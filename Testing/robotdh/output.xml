@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220615 17:40:39.202" rpa="false" schemaversion="3">
+<suite id="s1" name="Rafael" source="C:\Users\rafae\Desktop\CTD\Testing\robotdh\rafael.robot">
+<test id="s1-t1" name="Processo de compra na loja Sauce Demo" line="6">
+<kw name="Acessar a loja" library="rafael">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220615 17:40:39.436" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com'.</msg>
+<status status="PASS" starttime="20220615 17:40:39.435" endtime="20220615 17:40:41.636"/>
+</kw>
+<status status="PASS" starttime="20220615 17:40:39.435" endtime="20220615 17:40:41.636"/>
+</kw>
+<kw name="Fazer login" library="rafael">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO_USUARIO}</arg>
+<arg>${USUARIO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220615 17:40:41.640" level="INFO">Typing text 'standard_user' into text field 'css=#user-name'.</msg>
+<status status="PASS" starttime="20220615 17:40:41.639" endtime="20220615 17:40:41.802"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO_SENHA}</arg>
+<arg>${SENHA}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220615 17:40:41.803" level="INFO">Typing text 'secret_sauce' into text field 'css=#password'.</msg>
+<status status="PASS" starttime="20220615 17:40:41.802" endtime="20220615 17:40:41.913"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BOTAO_LOGIN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220615 17:40:41.914" level="INFO">Clicking element 'css=#login-button'.</msg>
+<status status="PASS" starttime="20220615 17:40:41.913" endtime="20220615 17:40:42.127"/>
+</kw>
+<status status="PASS" starttime="20220615 17:40:41.637" endtime="20220615 17:40:42.128"/>
+</kw>
+<status status="PASS" starttime="20220615 17:40:39.434" endtime="20220615 17:40:42.130"/>
+</test>
+<status status="PASS" starttime="20220615 17:40:39.204" endtime="20220615 17:40:42.133"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Rafael">Rafael</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
