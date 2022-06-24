@@ -1,0 +1,5 @@
+Draw.io:
+	https://app.diagrams.net/#G1eEKtRRWE6UuxHI3gkOwSQKXVq__W1f_o
+
+GitHub:
+	 https://github.com/rafael12369/CTD/tree/main/POO/Checkpoint%20Java
