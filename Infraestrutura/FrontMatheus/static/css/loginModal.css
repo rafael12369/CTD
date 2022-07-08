@@ -1,0 +1,178 @@
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalContent {
+  
+   background-color: #f4f4f4;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    border-radius: 25px;
+    width: 30vw;
+    height: 50vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+
+    
+}
+
+.modalContent h2{
+    color: black;
+    width: 100%;
+    font-weight: 500;
+    margin-top: 1em;
+    text-align: center;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    margin-right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-container {
+    width: 100%;
+    padding: 12px 12px;
+    
+}
+
+.custom-checkbox {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.form-container .custom-checkbox input{
+    margin-left: 0.6vw;
+}
+
+.form-container .custom-checkbox span {
+    margin-left: 6vw;
+}
+
+.form-container .custom-checkbox a {
+    text-decoration: none;
+}
+
+.form-container .input1, .btn-02 {
+    border: #888 1px solid;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+
+.form-container input:hover {
+    border: 1px solid red;
+}
+
+.btn-02 {
+    position: relative;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;  
+}
+
+.btn-02:hover{
+    background-color: rgba(255, 0, 0, 0.638);
+}
+
+
+@media screen and (min-width: 500px){
+    .modalContent {
+        max-width: 40%;
+        max-height: 100vh;
+        height: auto;
+        width: auto;
+       
+    }
+}
+
+@media screen and (min-width: 0px)  and (max-width: 500px){
+    .modalContent {
+
+       
+        width: 80%;
+        max-height: 45vh;
+        height: auto;
+       
+    }
+
+    .custom-checkbox a{
+        font-size: 12px;
+    }
+
+    .custom-checkbox label{
+        font-size: 14px;
+    }
+
+
+    
+
+}
+
