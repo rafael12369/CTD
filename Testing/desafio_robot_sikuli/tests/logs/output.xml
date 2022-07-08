@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220708 10:08:06.022" rpa="false" schemaversion="3">
+<suite id="s1" name="Venda-Pdv" source="C:\Users\rafae\Desktop\CTD\Testing\desafio_robot_sikuli\robot-sikuli-bug-backery\tests\venda-pdv.robot">
+<kw name="Inicia Sessão" type="SETUP">
+<msg timestamp="20220708 10:08:06.049" level="FAIL">No keyword with name 'Inicia Sessão' found.</msg>
+<status status="FAIL" starttime="20220708 10:08:06.049" endtime="20220708 10:08:06.049"/>
+</kw>
+<test id="s1-t1" name="Vender o melhor combo" line="10">
+<status status="FAIL" starttime="20220708 10:08:06.050" endtime="20220708 10:08:06.050">Parent suite setup failed:
+No keyword with name 'Inicia Sessão' found.</status>
+</test>
+<kw name="Encerrar Sessão" type="TEARDOWN">
+<msg timestamp="20220708 10:08:06.053" level="FAIL">No keyword with name 'Encerrar Sessão' found.</msg>
+<status status="FAIL" starttime="20220708 10:08:06.053" endtime="20220708 10:08:06.053">No keyword with name 'Encerrar Sessão' found.</status>
+</kw>
+<doc>Suite de teste de venda no PDV</doc>
+<status status="FAIL" starttime="20220708 10:08:06.024" endtime="20220708 10:08:06.053">Suite setup failed:
+No keyword with name 'Inicia Sessão' found.
+
+Also suite teardown failed:
+No keyword with name 'Encerrar Sessão' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Venda-Pdv">Venda-Pdv</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220708 10:08:06.045" level="ERROR">Error in file 'C:\Users\rafae\Desktop\CTD\Testing\desafio_robot_sikuli\robot-sikuli-bug-backery\tests\venda-pdv.robot' on line 4: Resource file 'C:\Users\rafae\Desktop\CTD\Testing\desafio_robot_sikuli\robot-sikuli-bug-backery\tests\resources\base.robot' does not exist.</msg>
+</errors>
+</robot>
