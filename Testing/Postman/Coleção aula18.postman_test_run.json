@@ -1,0 +1,92 @@
+{
+	"id": "3b19f746-7f76-472d-b598-3c243877de62",
+	"name": "Coleção aula18",
+	"timestamp": "2022-06-08T20:54:07.573Z",
+	"collection_id": "21375849-fdfd1494-a265-4045-97f0-5ec41a648e34",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "342332f5-af9f-44f7-9665-c747a4cf4352",
+			"name": "requisição a",
+			"url": "https://restool-sample-app.herokuapp.com/api/dead",
+			"time": 152,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O tempo de resposta é inferior a 200ms": true,
+				"O corpo corresponde à string": true
+			},
+			"testPassFailCounts": {
+				"O tempo de resposta é inferior a 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O corpo corresponde à string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				152
+			],
+			"allTests": [
+				{
+					"O tempo de resposta é inferior a 200ms": true,
+					"O corpo corresponde à string": true
+				}
+			]
+		},
+		{
+			"id": "9056929e-2f7c-4c95-9fa4-bedf698eedd5",
+			"name": "requisição b",
+			"url": "https://restool-sample-app.herokuapp.com/api/dead",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": false,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				160
+			],
+			"allTests": [
+				{
+					"Successful POST request": false,
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 312,
+	"collection": {
+		"requests": [
+			{
+				"id": "342332f5-af9f-44f7-9665-c747a4cf4352",
+				"method": "GET"
+			},
+			{
+				"id": "9056929e-2f7c-4c95-9fa4-bedf698eedd5",
+				"method": "POST"
+			}
+		]
+	}
+}

@@ -1,0 +1,196 @@
+{
+	"id": "7d54f71d-b78b-4c2f-bf9a-93b32cc978a5",
+	"name": "Public REST APIs",
+	"timestamp": "2022-06-13T21:02:04.253Z",
+	"collection_id": "21375849-035d3cfe-6a1f-46ed-9389-5ab1cbc867b1",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 9,
+	"results": [
+		{
+			"id": "9397ae28-9f6f-40ae-91a9-1079c4332019",
+			"name": "List API",
+			"url": "http://api.apis.guru/v2/list.json",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name has string ok": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Status code name has string ok": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "d69fc198-2200-4866-bde7-13545f6b52a3",
+			"name": "Latest SpaceX Launch",
+			"url": "https://api.spacexdata.com/v3/launches/latest",
+			"time": 147,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Successful POST request": false,
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Successful POST request": false,
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "6c72f913-4e6b-4f52-9ca0-60c29b8b9a0d",
+			"name": "Sunrise and Sunset",
+			"url": "https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400",
+			"time": 216,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": false,
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Your test name": false,
+				"Schema is valid": false,
+				"Status code name has string": false,
+				"Content-Type is present": true,
+				"Body is correct": false
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Schema is valid": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				216
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": false,
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Your test name": false,
+					"Schema is valid": false,
+					"Status code name has string": false,
+					"Content-Type is present": true,
+					"Body is correct": false
+				}
+			]
+		},
+		{
+			"id": "5c978d66-8d62-468a-8113-348144ed78f2",
+			"name": "Breaches",
+			"url": "https://haveibeenpwned.com/api/v2/breaches",
+			"time": 111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": false
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				111
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 547,
+	"collection": {
+		"requests": [
+			{
+				"id": "9397ae28-9f6f-40ae-91a9-1079c4332019",
+				"method": "GET"
+			},
+			{
+				"id": "d69fc198-2200-4866-bde7-13545f6b52a3",
+				"method": "GET"
+			},
+			{
+				"id": "6c72f913-4e6b-4f52-9ca0-60c29b8b9a0d",
+				"method": "GET"
+			},
+			{
+				"id": "5c978d66-8d62-468a-8113-348144ed78f2",
+				"method": "GET"
+			}
+		]
+	}
+}
