@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint I</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header></header>
+    
+    <main id="principal">
+        <section class="formulario"> 
+            <form action="./cardSubmit.html" method="get" id="form">
+            
+                <div class="classImage">
+                    <img class="imagemSinistra" src="image/Sinistra Company_free-file.png">
+                </div>
+                
+                <div class="formItem">
+                    <label for="nome"></label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                </div>
+                
+                <div class="formItem">
+                    <label for="descricao"></label>
+                    <input type="text" name="descricao" id="descricao" placeholder="Descrição" >
+                </div>
+                
+                <div class="formItem">
+                    <label for="url"></label>
+                    <input type="url" name="url" id="url" placeholder="URL imagem">
+                </div>
+                
+                <div class="formItem">
+                    <button type="submit" value="submit" onsubmit="addElementos()">Submit</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

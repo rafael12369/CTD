@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.label {
+    position: relative;
+    width: 50px;
+    height: 20px;
+    background-color: yellowgreen;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    border-radius: 50px ;
+}
+
+.fa-moon {
+    color: rgb(255, 255, 255);
+}
+
+.fa-sun {
+    color: #f8c76b;
+}
+
+.bola {
+    position: absolute;
+    height: 18px;
+    width: 20px;
+    background-color: white;
+    top: 1px;
+    left: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.checkbox {
+   display: none;
+   position: absolute;
+}
+
+.checkbox:checked + .label .bola {
+    transform: translateX(25px);
+}
+
+.teste {
+    margin: 0 auto;
+    width: 10vh;
+    margin-top: 550px;
+}
